@@ -146,7 +146,30 @@
   /*Responsive Section*/
 
   @media screen and (max-width : 576px) {
-    .navbar, .nav-links{
+    .navbar, .nav-links, .teams{
       flex-direction: column;
     }
+
+    .team-img-container{
+      grid-template-columns: repeat(1,1fr);
+    }
+
+    .our-feature{
+      margin: 20px 20px;
+    }
+  }
+
+
+  /*Medium Device*/
+
+  @media screen and (min-width:577px) and (max-width:992px) {
+      .teams{
+        flex-direction: column;
+      }
+
+      .our-feature{
+        text-align: center;
+        margin: 30px 30px;
+      }
+    
   }
