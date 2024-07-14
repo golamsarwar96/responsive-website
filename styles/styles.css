@@ -51,6 +51,19 @@
     margin-top: 140px;
   }
 
+  
+  .section-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin : 10px 0 0 0;
+  }
+
+  .section-description{
+    font-size: 1rem;
+    font-weight: 400;
+    margin : 10px 0 0 0;
+  }
+
   /*Header Styles*/
 
 
@@ -124,17 +137,7 @@
     margin-left : 90px;
   }
 
-
-  .feature-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin : 0;
-  }
-
-  .feature-description{
-    font-size: 1rem;
-    font-weight: 400;
-  }
+  
   #quick-list{
     font-weight: 500;
   }
@@ -142,6 +145,8 @@
   #feature{
     color : #FF900E;
   }
+
+
 
   /*Responsive Section*/
 
