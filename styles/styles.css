@@ -153,6 +153,36 @@
     margin: 40px 0 0 45px;
   }
 
+  /*Feature Styling */
+
+.features{
+  gap : 140px;
+}
+
+  #feature-title{
+    border-left: 5px solid #FF900E;
+    padding-left : 25px;
+    margin-bottom: 20px; 
+  }
+
+  #feature-para{
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+
+  .feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+   
+  }
+
   /*Some fact related Styles*/
   .fact-card{
     border: 1px solid #FF900E;
